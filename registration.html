@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Student registration form for CS 224L by Bushra Popalzai">
+
+    <meta name="author"
+          content="Bushra Popalzai">
+
+    <title>
+        Registration | CS 224L | Bushra Popalzai
+    </title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+<header class="site-header">
+
+    <div class="container nav-wrap">
+
+        <a class="brand"
+           href="index.html">
+
+            CS 224L
+            <span>Lab 02</span>
+
+        </a>
+
+
+        <nav aria-label="Main Navigation">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="profile.html">
+                About
+            </a>
+
+            <a href="schedule.html">
+                Courses
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main class="section">
+
+    <div class="container narrow">
+
+        <p class="eyebrow">
+            Task 4 · Registration Form
+        </p>
+
+
+        <h1>
+            Student Registration
+        </h1>
+
+
+        <form class="form-card"
+              id="registrationForm">
+
+
+            <label for="name">
+                Full Name
+            </label>
+
+            <input
+                id="name"
+                name="name"
+                type="text"
+                value="Bushra Popalzai"
+                required
+            >
+
+
+            <label for="regno">
+                Registration Number
+            </label>
+
+            <input
+                id="regno"
+                name="registration_number"
+                type="text"
+                value="24PWDSC0161"
+                required
+            >
+
+
+            <label for="email">
+                Email Address
+            </label>
+
+            <input
+                id="email"
+                name="email"
+                type="email"
+                value="24PWDSC0161@uetpeshawar.edu.pk"
+                required
+            >
+
+
+            <label for="password">
+                Password
+            </label>
+
+            <input
+                id="password"
+                name="password"
+                type="password"
+                minlength="6"
+                placeholder="Minimum 6 characters"
+                required
+            >
+
+
+            <label for="course">
+                Select Course
+            </label>
+
+            <select
+                id="course"
+                name="course"
+                required>
+
+                <option value="">
+                    -- Select a course --
+                </option>
+
+                <option value="web-technologies">
+                    Web Technologies
+                </option>
+
+                <option value="data-structures">
+                    Data Structures
+                </option>
+
+                <option value="database">
+                    Database Systems
+                </option>
+
+                <option value="machine-learning">
+                    Machine Learning
+                </option>
+
+                <option value="software-engineering">
+                    Software Engineering
+                </option>
+
+            </select>
+
+
+            <fieldset>
+
+                <legend>
+                    Semester
+                </legend>
+
+
+                <label class="inline">
+
+                    <input
+                        type="radio"
+                        name="semester"
+                        value="1"
+                        required>
+
+                    1st
+
+                </label>
+
+
+                <label class="inline">
+
+                    <input
+                        type="radio"
+                        name="semester"
+                        value="2">
+
+                    2nd
+
+                </label>
+
+
+                <label class="inline">
+
+                    <input
+                        type="radio"
+                        name="semester"
+                        value="3">
+
+                    3rd
+
+                </label>
+
+
+                <label class="inline">
+
+                    <input
+                        type="radio"
+                        name="semester"
+                        value="4">
+
+                    4th
+
+                </label>
+
+
+                <label class="inline">
+
+                    <input
+                        type="radio"
+                        name="semester"
+                        value="5"
+                        checked>
+
+                    5th
+
+                </label>
+
+
+                <label class="inline">
+
+                    <input
+                        type="radio"
+                        name="semester"
+                        value="6">
+
+                    6th
+
+                </label>
+
+
+                <label class="inline">
+
+                    <input
+                        type="radio"
+                        name="semester"
+                        value="7">
+
+                    7th
+
+                </label>
+
+
+                <label class="inline">
+
+                    <input
+                        type="radio"
+                        name="semester"
+                        value="8">
+
+                    8th
+
+                </label>
+
+            </fieldset>
+
+
+            <label class="checkbox">
+
+                <input
+                    type="checkbox"
+                    name="terms"
+                    required>
+
+                I agree to the terms
+                and conditions.
+
+            </label>
+
+
+            <button
+                class="btn"
+                type="submit">
+
+                Submit Registration
+
+            </button>
+
+
+            <p
+                id="registrationMessage"
+                class="form-message"
+                role="status">
+            </p>
+
+        </form>
+
+
+        <a class="back-home"
+           href="index.html">
+
+            ← Back to Home
+
+        </a>
+
+    </div>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="container">
+
+        <p>
+            CS 224L Web Technologies · Lab 02
+            · Bushra Popalzai · 24PWDSC0161
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
