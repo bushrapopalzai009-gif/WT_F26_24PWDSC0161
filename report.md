@@ -1,0 +1,3 @@
+# Lab 01 Reflection
+
+In this lab, I learned how to configure Visual Studio Code and Git for web development. I practiced creating files, monitoring changes, committing updates, and uploading my work to GitHub. I also learned how to create and use Git branches to test new ideas without affecting the main project. Finally, I learned how to merge branches into the main branch and manage my project efficiently using Git and GitHub.
